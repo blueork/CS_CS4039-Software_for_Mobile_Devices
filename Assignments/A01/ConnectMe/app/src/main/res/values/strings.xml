@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ConnectMe</string>
+    <string name="registration_notice">
+        By clicking Agree and continue below, I agree to <a href="https://www.youtube.com/watch?v=XfELJU1mRMg">Terms of Service</a>
+        and <a href="https://www.youtube.com/watch?v=XfELJU1mRMg">Privacy Policy</a>
+
+
+    </string>
 </resources>
