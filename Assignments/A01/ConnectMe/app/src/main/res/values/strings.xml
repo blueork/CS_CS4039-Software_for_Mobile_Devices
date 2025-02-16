@@ -3,7 +3,56 @@
     <string name="registration_notice">
         By clicking Agree and continue below, I agree to <a href="https://www.youtube.com/watch?v=XfELJU1mRMg">Terms of Service</a>
         and <a href="https://www.youtube.com/watch?v=XfELJU1mRMg">Privacy Policy</a>
-
-
     </string>
+    <string name="open_messenger">Open Messenger</string>
+    <string name="_9_41">9:41</string>
+    <string name="go_back_to_home_page">Go back to Home Page</string>
+    <string name="oliviad">OliviaD</string>
+    <string name="inbox">Inbox</string>
+    <string name="dms">DMs</string>
+    <string name="dm_profile_pic">DM Profile Pic</string>
+    <string name="name_of_person">Name of Person</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="go_back_to_dm_page">Go back to DM page</string>
+    <string name="henry_benjamin">Henry Benjamin</string>
+    <string name="call_person_button">Call Person Button</string>
+    <string name="video_call_button">Video Call Button</string>
+    <string name="call_person">Call Person</string>
+    <string name="video_call_person">Video Call Person</string>
+    <string name="profile_pic">Profile Pic</string>
+    <string name="view_profile">View Profile</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="contacts">Contacts</string>
+
+    <string-array name="home_page_post_profile_names_txt">
+        <item>Henry Benjamin</item>
+        <item>Emily James</item>
+        <item>lily Thomas</item>
+        <item>Christopher</item>
+        <item>Amy Wesley</item>
+        <item>Laura Ryan</item>
+    </string-array>
+
+    <string-array name="home_page_post_profile_desc_txt">
+        <item><b>Henry Benjamin</b> Look at me goofing around</item>
+        <item><b>Emily James</b> I am so strong</item>
+        <item><b>lily Thomas</b> Great Day</item>
+        <item><b>Christopher</b> Nice Yaarr</item>
+        <item><b>Amy Wesley</b> My name is Jeff</item>
+        <item><b>Laura Ryan</b> Program tou warr gaya</item>
+    </string-array>
+
+    <string-array name="chat_person_name_txt">
+        <item>Henry Benjamin</item>
+        <item>Emily James</item>
+        <item>lily Thomas</item>
+        <item>Christopher</item>
+        <item>Amy Wesley</item>
+        <item>Laura Ryan</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

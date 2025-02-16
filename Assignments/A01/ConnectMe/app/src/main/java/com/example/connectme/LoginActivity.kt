@@ -1,7 +1,6 @@
 package com.example.connectme
 
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +22,12 @@ class LoginActivity : AppCompatActivity() {
         val registrationButton = findViewById<Button>(R.id.registration_button)
         registrationButton.setOnClickListener{
             val intent = Intent(this, RegisterActivtiy::class.java)
+            startActivity(intent)
+        }
+
+        val loginButton = findViewById<Button>(R.id.login_button)
+        loginButton.setOnClickListener{
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
 
