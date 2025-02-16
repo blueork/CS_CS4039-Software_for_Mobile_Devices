@@ -40,12 +40,10 @@ class dms : AppCompatActivity() {
             R.drawable.person_pic_5,
             R.drawable.person_pic_6
         )
-
         chatPersonName = resources.getStringArray(R.array.chat_person_name_txt)
 
         dmRecyclerView = findViewById(R.id.dmRecyclerView)
         dmRecyclerView.layoutManager = LinearLayoutManager(this)
-
         dmArrayList = arrayListOf<DM_Model>()
         getUserData()
 
@@ -56,7 +54,6 @@ class dms : AppCompatActivity() {
             val dm_Model = DM_Model(profilePicImageId[i], chatPersonName[i])
             dmArrayList.add(dm_Model)
         }
-
         dmRecyclerView.adapter = DM_Adapter(dmArrayList)
     }
 
