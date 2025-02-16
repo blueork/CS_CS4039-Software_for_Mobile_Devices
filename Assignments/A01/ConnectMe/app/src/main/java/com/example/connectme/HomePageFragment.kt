@@ -1,10 +1,12 @@
 package com.example.connectme
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -88,6 +90,12 @@ class HomePageFragment : Fragment() {
         homePagePostRecyclerView.setHasFixedSize(true)
         homePageStoryAdapter = HomePageStoryAdapter(homePageStoryArrayList)
         homePageStoryRecyclerView.adapter = homePageStoryAdapter
+
+        val dmButton = view.findViewById<Button>(R.id.dm_button)
+        dmButton.setOnClickListener{
+            val intent = Intent(context, dms::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun dataInitialize() {
