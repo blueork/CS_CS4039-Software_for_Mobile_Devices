@@ -54,7 +54,7 @@ class dms : AppCompatActivity() {
             val dm_Model = DM_Model(profilePicImageId[i], chatPersonName[i])
             dmArrayList.add(dm_Model)
         }
-        dmRecyclerView.adapter = DM_Adapter(dmArrayList)
+        dmRecyclerView.adapter = DM_Adapter(dmArrayList, this)
     }
 
 }
