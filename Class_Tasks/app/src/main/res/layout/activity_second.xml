@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/redbox"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#F44336"/>
+
+    <View
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/redbox"
+        android:layout_alignBottom="@id/redbox"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000000" />
+    <View
+        android:layout_centerVertical="true"
+        android:layout_below="@id/redbox"
+        android:layout_alignStart="@id/redbox"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00FF99" />
+    <View
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/redbox"
+        android:layout_above="@id/redbox"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#3300AA" />
+    <View
+        android:layout_centerVertical="true"
+        android:layout_above="@id/redbox"
+        android:layout_toStartOf="@id/redbox"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginEnd="-30dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#9900DD" />
+
+    <View
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@id/redbox"
+        android:layout_alignBottom="@id/redbox"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FFC107" />
+
+</RelativeLayout>
+
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".SecondActivity">-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="30dp"-->
+<!--        android:id="@+id/tv"-->
+<!--        />-->
+
+<!--    <View-->
+<!--        android:id="@+id/redbox"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:background="#F44336" />-->
+
+<!--    <View-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_above="@id/redbox"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="#009688"/>-->
+
+<!--    <View-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/redbox"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="#009688"/>-->
+<!--    <View-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_toLeftOf="@id/redbox"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="#009688"/>-->
+<!--    <View-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_toRightOf="@id/redbox"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:background="#009688"/>-->
+<!--    <View-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_alignEnd="@+id/redbox"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#FF9800"/>-->
+
+<!--    <View-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_alignStart="@+id/redbox"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#FF9800"/>-->
+
+<!--    <View-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignTop="@+id/redbox"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#FF9800"/>-->
+
+
+<!--    <View-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignBottom="@+id/redbox"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#FF9800"/>-->
+
+
+
+<!--</RelativeLayout>-->
