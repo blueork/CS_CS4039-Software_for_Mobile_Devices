@@ -26,9 +26,9 @@ class MainActivityRV : AppCompatActivity() {
         var rv=findViewById<RecyclerView>(R.id.rv)
         var add=findViewById<RelativeLayout>(R.id.add)
         var list= mutableListOf<Model>()
-        list.add(Model("Jhon Doe","0992","jhon.doe@gmail.com"))
-        list.add(Model("Will Smith","2990","will.smith@gmail.com"))
-        list.add(Model("Jada Smith","1122","jada.smith@gmail.com"))
+//        list.add(Model("Jhon Doe","0992","jhon.doe@gmail.com"))
+//        list.add(Model("Will Smith","2990","will.smith@gmail.com"))
+//        list.add(Model("Jada Smith","1122","jada.smith@gmail.com"))
 
         var adapter=MyAdapter(list,this)
         var lm= LinearLayoutManager(this)
@@ -45,7 +45,8 @@ class MainActivityRV : AppCompatActivity() {
                 Log.d("rollnum",rollnum!!)
                 var email = dataa?.getStringExtra("email")
                 Log.d("email",email!!)
-                list.add(Model(name!!,rollnum!!,email!!))
+                var image = dataa?.getStringExtra("image")
+                list.add(Model(name!!,rollnum!!,email!!,image!!))
                 adapter.notifyDataSetChanged()
             }
         }
