@@ -11,6 +11,15 @@
         android:id="@+id/rv"
         />
 
+    <TextView
+        android:textSize="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/count"
+        android:text="0"
+        android:layout_centerInParent="true"
+        />
+
     <RelativeLayout
         android:elevation="10dp"
         android:layout_margin="40dp"
@@ -25,7 +34,6 @@
             android:src="@drawable/add"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-
     </RelativeLayout>
 
 </RelativeLayout>
